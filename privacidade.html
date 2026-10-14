@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - Vila Fisio</title>
+    <style>
+        /* A mesma paleta de cores e estilos base são mantidos */
+        :root {
+            --primary-color: #005954;
+            --primary-dark: #00433f;
+            --primary-light: #e0f2f1;
+            --bg-color: #f7f9fa;
+            --card-bg: #e9ecef;
+            --white: #ffffff;
+            --text-dark: #1e293b;
+            --text-medium: #475569;
+            --text-light: #94a3b8;
+            --border-color: #cbd5e1;
+            --border-focus: #005954;
+            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-dark);
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: var(--white);
+            padding: 1rem 5%;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo-container img {
+            height: 60px;
+        }
+
+        nav a {
+            color: var(--text-medium);
+            text-decoration: none;
+            font-weight: 600;
+            margin-left: 2rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--primary-color);
+        }
+
+        main {
+            flex: 1;
+            padding: 3rem 5%;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .privacy-content {
+            background-color: var(--white);
+            padding: 3rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow-md);
+        }
+
+        .privacy-content h1 {
+            color: var(--primary-dark);
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            border-bottom: 2px solid var(--primary-light);
+            padding-bottom: 0.5rem;
+        }
+
+        .privacy-content h2 {
+            color: var(--primary-color);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .privacy-content p,
+        .privacy-content ul {
+            color: var(--text-medium);
+            margin-bottom: 1rem;
+        }
+
+        .privacy-content ul {
+            margin-left: 2rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: var(--white);
+            color: var(--text-light);
+            border-top: 1px solid var(--border-color);
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .privacy-content {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="logo.png" alt="Logo Vila Fisio">
+            </a>
+        </div>
+        <nav>
+            <a href="index.html">Voltar para a Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="privacy-content">
+            <h1>Política de Privacidade</h1>
+            <p><strong>Última atualização:</strong> Outubro de 2026</p>
+
+            <p>A <strong>Vila Fisio</strong> opera o aplicativo móvel Vila Fisio. Esta página descreve nossas políticas
+                e práticas relativas à coleta, ao uso e à proteção dos dados pessoais fornecidos por você ao utilizar
+                nosso aplicativo e nossos serviços.</p>
+
+            <h2>1. Coleta e Uso de Informações</h2>
+            <p>Nosso aplicativo não coleta dados sensíveis do usuário sem o seu consentimento explícito. Podemos
+                solicitar informações básicas necessárias para gerenciar suas aulas de Pilates e agendamentos na
+                clínica, como:</p>
+            <ul>
+                <li>Nome completo</li>
+                <li>Endereço de e-mail</li>
+                <li>Número de telefone</li>
+            </ul>
+
+            <h2>2. Permissões do Aplicativo</h2>
+            <p>Para o funcionamento correto, o aplicativo pode solicitar permissões de acesso à internet. Não acessamos
+                sua câmera, galeria de fotos ou localização em segundo plano sem que uma funcionalidade específica exija
+                e seja previamente autorizada por você.</p>
+
+            <h2>3. Segurança dos Dados</h2>
+            <p>A segurança dos seus dados é importante para nós. Usamos práticas comercialmente aceitáveis para proteger
+                suas informações pessoais; no entanto, lembre-se de que nenhum método de transmissão pela internet ou
+                método de armazenamento eletrônico é 100% seguro.</p>
+
+            <h2>4. Mudanças nesta Política</h2>
+            <p>Podemos atualizar nossa Política de Privacidade periodicamente. Avisaremos sobre quaisquer alterações
+                publicando a nova Política de Privacidade nesta página e atualizando a data de "Última atualização".</p>
+
+            <h2>5. Contato</h2>
+            <p>Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco:</p>
+            <ul>
+                <li>Por e-mail: <strong>addatech.vilafisio@gmail.com</strong></li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="ano-atual"></span> Vila Fisio. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Script para pegar o ano atual automaticamente -->
+    <script>
+        const anoAtual = new Date().getFullYear();
+        document.getElementById('ano-atual').textContent = anoAtual;
+    </script>
+
+</body>
+
+</html>
